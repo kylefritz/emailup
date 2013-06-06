@@ -1,6 +1,6 @@
 class GroupMailer < ActionMailer::Base
 
-  default from: "app16144327@heroku.com"
+  default from: "emailup@app16144327.mailgun.org"
 
   def group_email(email, user)
     @body = email.body
