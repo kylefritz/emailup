@@ -1,0 +1,15 @@
+<%= form_for new_email, url: email_path do |f| %>
+  <fieldset>
+    <legend>Send an email</legend>
+
+    <%= f.label :subject %>
+    <%= f.text_field :subject %>
+
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+
+    <div class="form-actions">
+      <%= f.submit %>
+    </div>
+  </fieldset>
+<% end %>
