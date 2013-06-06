@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emailup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="http://designmodo.github.io/Flat-UI/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="http://designmodo.github.io/Flat-UI/css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="http://franchise.orderup.com/favicon.ico">
+
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <h1><a href="/">EmailUp</a></h1>
+            </div>
+            <div class="span4">
+            </div>
+        </div>
+
+        <%= yield %>
+
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.0.2.js"></script>
+    <script src="http://designmodo.github.io/Flat-UI/js/bootstrap.min.js"></script>
+  </body>
+</html>

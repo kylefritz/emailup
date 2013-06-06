@@ -1,0 +1,10 @@
+<%= form_for new_user, url: user_path do |f| %>
+<fieldset>
+  <legend>Add an email</legend>
+<%= f.label :email %>
+<%= f.email_field :email %>
+<div class="form-actions">
+  <%= f.submit %>
+</div>
+</fieldset>
+<% end %>

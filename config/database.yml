@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  host: localhost
+  database: emailup_dev
+
+test:
+  adapter: postgresql
+  host: localhost
+  database: emailup_test
